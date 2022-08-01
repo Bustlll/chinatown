@@ -1,5 +1,8 @@
+# example netlify.toml
 [build]
+  command = "# no build command"
   functions = "netlify/functions"
+  publish = "."
 
 [[redirects]]
   from = '/wreckthisbeach/*'
